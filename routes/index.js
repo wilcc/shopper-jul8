@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Product = require('./admin/products/models/Product');
-const mainProduct = require('./admin/home')
+const mainProduct = require('../public/js/home')
 /* GET home page. */
 
 const paginate = (req, res, next) => {
